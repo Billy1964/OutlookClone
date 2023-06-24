@@ -56,10 +56,15 @@
 	  <MauiXaml Update="Controls\OutlookSwitch.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Views\ContentViews\Landscape\MainPageLandscapeCV.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\ContentViews\Portrait\MainPagePortraitCV.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="Views\" />
 	  <Folder Include="NewFolder\" />
 	</ItemGroup>
 
